@@ -1,6 +1,6 @@
 {
     "name": "@jabberwocky-db/rollup-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "prettier": "@jabberwocky-db/prettier-config",
     "sideEffects": false,
@@ -11,9 +11,7 @@
         "@rollup/plugin-typescript": "8.3.2",
         "rollup-plugin-exclude-dependencies-from-bundle": "1.1.22",
         "rollup-plugin-ts": "2.0.7",
-        "tslib": "2.4.0"
-    },
-    "peerDependencies": {
+        "tslib": "2.4.0",
         "typescript": "^4.6.0",
         "rollup": "^2.73.0"
     },
