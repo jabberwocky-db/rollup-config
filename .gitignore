@@ -1,2 +1,12 @@
-yarn.lock
 /node_modules
+
+/tmp
+/tmp*
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
