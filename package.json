@@ -1,6 +1,6 @@
 {
     "name": "@jabberwocky-db/rollup-config",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "prettier": "@jabberwocky-db/prettier-config",
     "sideEffects": false,
