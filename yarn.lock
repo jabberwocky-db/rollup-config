@@ -54,11 +54,12 @@ __metadata:
   resolution: "@jabberwocky-db/rollup-config@workspace:."
   dependencies:
     "@jabberwocky-db/prettier-config": ^2.0.3
-    "@rollup/plugin-typescript": 8.3.2
+    "@rollup/plugin-typescript": ^8.3.2
+    prettier: ^2.6.2
     rollup: ^2.74.1
-    rollup-plugin-exclude-dependencies-from-bundle: 1.1.22
-    rollup-plugin-ts: 2.0.7
-    tslib: 2.4.0
+    rollup-plugin-exclude-dependencies-from-bundle: ^1.1.22
+    rollup-plugin-ts: ^2.0.7
+    tslib: ^2.4.0
     typescript: ^4.6.4
   languageName: unknown
   linkType: soft
@@ -133,7 +134,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-typescript@npm:8.3.2":
+"@rollup/plugin-typescript@npm:^8.3.2":
   version: 8.3.2
   resolution: "@rollup/plugin-typescript@npm:8.3.2"
   dependencies:
@@ -1253,7 +1254,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-exclude-dependencies-from-bundle@npm:1.1.22":
+"rollup-plugin-exclude-dependencies-from-bundle@npm:^1.1.22":
   version: 1.1.22
   resolution: "rollup-plugin-exclude-dependencies-from-bundle@npm:1.1.22"
   dependencies:
@@ -1265,7 +1266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-ts@npm:2.0.7":
+"rollup-plugin-ts@npm:^2.0.7":
   version: 2.0.7
   resolution: "rollup-plugin-ts@npm:2.0.7"
   dependencies:
@@ -1479,7 +1480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.4.0, tslib@npm:^2.3.1":
+"tslib@npm:^2.3.1, tslib@npm:^2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113

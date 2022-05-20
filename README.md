@@ -37,8 +37,8 @@ npm install @jabberwocky-db/rollup-config --save-dev
 
 ## 📎 Similar Jabberwocky DB Repos
 
-- [Eslint Config](https://github.com/jabberwocky-db/rollup-config)
-- [Jest Config](https://github.com/jabberwocky-db/jest-config)
-- [Prettier Config](https://github.com/jabberwocky-db/prettier-config)
-- [Node tsconfig](https://github.com/jabberwocky-db/tsconfig-node)
-- [tsconfig](https://github.com/jabberwocky-db/tsconfig)
+-   [Eslint Config](https://github.com/jabberwocky-db/rollup-config)
+-   [Jest Config](https://github.com/jabberwocky-db/jest-config)
+-   [Prettier Config](https://github.com/jabberwocky-db/prettier-config)
+-   [Node tsconfig](https://github.com/jabberwocky-db/tsconfig-node)
+-   [tsconfig](https://github.com/jabberwocky-db/tsconfig)
