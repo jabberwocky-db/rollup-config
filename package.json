@@ -21,5 +21,28 @@
     },
     "scripts": {
         "format": "yarn prettier . --write"
+    },
+    "packageManager": "yarn@3.2.1",
+    "repository": "github:@jabberwocky-db/rollup-config",
+    "homepage": "https://github.com/jabberwocky-db/rollup-config#readme",
+    "keywords": [
+        "rollup",
+        "config",
+        "jabberwocky",
+        "jabberwocky-db"
+    ],
+    "author": {
+        "name": "Jabberwocky DB",
+        "email": "zach@jwocky.com"
+    },
+    "contributors": [
+        {
+            "name": "Zachary Raineri",
+            "email": "zach@jwocky.com"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/jabberwocky-db/rollup-config/issues",
+        "email": "zach@jwocky.com"
     }
 }
