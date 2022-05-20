@@ -16,6 +16,10 @@
         "typescript": "^4.6.4"
     },
     "devDependencies": {
-        "@jabberwocky-db/prettier-config": "^2.0.3"
+        "@jabberwocky-db/prettier-config": "^2.0.3",
+        "prettier": "^2.6.2"
+    },
+    "scripts": {
+        "format": "yarn prettier . --write"
     }
 }

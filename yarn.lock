@@ -38,14 +38,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jabberwocky-db/prettier-config@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@jabberwocky-db/prettier-config@npm:1.0.0"
+"@jabberwocky-db/prettier-config@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@jabberwocky-db/prettier-config@npm:2.0.3"
   dependencies:
     "@prettier/plugin-xml": ^2.2.0
-  peerDependencies:
-    prettier: ^2.6.0
-  checksum: 51244071403c43a0db03bb2280025b7a5d9d1b30d15d3767cd35bde629ea945e94445a58c149e53118be42853c5129079cda396e2bf0b5d7baddea3e3f3d5ad2
+    prettier: ^2.6.2
+    prettier-plugin-sh: ^0.11.0
+  checksum: 2f8b5250e4a550599288098463d939a831c858a374bf31d7bb3671e9bb46e09ab2c8c4305a1413428e75c56adda6b15bc0997d2495516cd51d7c50fecbc198ad
   languageName: node
   linkType: hard
 
@@ -53,13 +53,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jabberwocky-db/rollup-config@workspace:."
   dependencies:
-    "@jabberwocky-db/prettier-config": ^1.0.0
+    "@jabberwocky-db/prettier-config": ^2.0.3
     "@rollup/plugin-typescript": 8.3.2
-    rollup: ^2.73.0
+    rollup: ^2.74.1
     rollup-plugin-exclude-dependencies-from-bundle: 1.1.22
     rollup-plugin-ts: 2.0.7
     tslib: 2.4.0
-    typescript: ^4.6.0
+    typescript: ^4.6.4
   languageName: unknown
   linkType: soft
 
@@ -1037,6 +1037,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mvdan-sh@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "mvdan-sh@npm:0.10.1"
+  checksum: 32ac3ad9adb3370a2b98256f1cb80572e7a8bd27958d20c1856e0bf7c339ef3ab232a1547b7615aa670ee8e557702abfc04d7dd362f15cd86ce01bab65172b47
+  languageName: node
+  linkType: hard
+
 "negotiator@npm:^0.6.3":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -1147,7 +1154,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:>=2.4.0":
+"prettier-plugin-sh@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "prettier-plugin-sh@npm:0.11.0"
+  dependencies:
+    mvdan-sh: ^0.10.1
+  peerDependencies:
+    prettier: ^2.0.0
+  checksum: c7821082507c849f4a7d915cb9ec4ad1e25ac787d3aae3937901cd4d4b8faf00a6b2f2ccbc7e91ca92c2f32bbb00be9d324ca01002bbb843da684ba9a95540b5
+  languageName: node
+  linkType: hard
+
+"prettier@npm:>=2.4.0, prettier@npm:^2.6.2":
   version: 2.6.2
   resolution: "prettier@npm:2.6.2"
   bin:
@@ -1287,7 +1305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.73.0":
+"rollup@npm:^2.74.1":
   version: 2.74.1
   resolution: "rollup@npm:2.74.1"
   dependencies:
@@ -1468,7 +1486,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.0":
+"typescript@npm:^4.6.4":
   version: 4.6.4
   resolution: "typescript@npm:4.6.4"
   bin:
@@ -1478,7 +1496,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.6.0#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
   resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"
   bin:
