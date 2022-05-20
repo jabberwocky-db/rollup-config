@@ -16,6 +16,6 @@
         "typescript": "^4.6.4"
     },
     "devDependencies": {
-        "@jabberwocky-db/prettier-config": "^1.0.0"
+        "@jabberwocky-db/prettier-config": "^2.0.3"
     }
 }
